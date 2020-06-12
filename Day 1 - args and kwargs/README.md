@@ -138,7 +138,7 @@ If we see the Python documentation, the [print](https://docs.python.org/3/librar
 
 We can print multiple values by passing them to the function each separated by a comma or even using the *args
 
-```
+```python
 print("Hello", "World")
 
 values = ["Hello", "World"]
@@ -148,3 +148,5 @@ print(*values)
 # Hello World
 # Hello World
 ```
+
+[Go to the Challenge](exercise.py)

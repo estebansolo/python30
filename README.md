@@ -16,3 +16,5 @@ It is a small course with some challenges which I invite you to take.
 Feel free to submit a PR adding a link to your repository, blog or videos [here](COMMUNITY.md)
 
 ## Python30 Topics
+
+1. [Day 1 - *args and **kwargs](Day 1 - args and kwargs/)
