@@ -17,4 +17,4 @@ Feel free to submit a PR adding a link to your repository, blog or videos [here]
 
 ## Python30 Topics
 
-1. [Day 1 - *args and **kwargs](Day 1 - args and kwargs/)
+1. [Day 1 - *args and **kwargs]("Day 1 - args and kwargs/")
