@@ -1,4 +1,4 @@
-# Day 1 - *args and **kwargs
+# Day 01 - *args and **kwargs
 
 When we define functions, we can make use of two kinds of arguments, ***positional arguments*** and ***named arguments or keyword arguments***.
 

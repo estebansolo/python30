@@ -17,4 +17,6 @@ Feel free to submit a PR adding a link to your repository, blog or videos [here]
 
 ## Python30 Topics
 
-1. [Day 1 - *args and **kwargs](Day%201%20-%20args%20and%20kwargs/)
+1. [Day 01 - *args and **kwargs](Day%2001%20-%20args%20and%20kwargs/)
+2. [Day 02 - Range](Day%2002%20-%20Range/)
+3. [Day 03 - List Slices](Day%2003%20-%20List%20Slices/)
