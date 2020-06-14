@@ -23,3 +23,7 @@ Feel free to submit a PR adding a link to your repository, blog or videos [here]
 4. [Day 04 - Map](Day%2004%20-%20Map/)
 5. [Day 05 - Filter](Day%2005%20-%20Filter/)
 6. [Day 06 - Reduce](Day%2006%20-%20Reduce/)
+7. [Day 07 - Lambdas](Day%2007%20-%20Lambdas/)
+8. [Day 08 - Comprehensions](Day%2008%20-%20Comprehensions/)
+9. [Day 09 - Enumerate](Day%2009%20-%20Enumerate/)
+10. [Day 10 - Error Handling](Day%2010%20-%20Error%20Handling/)
