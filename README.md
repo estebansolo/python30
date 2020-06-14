@@ -20,3 +20,6 @@ Feel free to submit a PR adding a link to your repository, blog or videos [here]
 1. [Day 01 - *args and **kwargs](Day%2001%20-%20args%20and%20kwargs/)
 2. [Day 02 - Range](Day%2002%20-%20Range/)
 3. [Day 03 - List Slices](Day%2003%20-%20List%20Slices/)
+4. [Day 04 - Map](Day%2004%20-%20Map/)
+5. [Day 05 - Filter](Day%2005%20-%20Filter/)
+6. [Day 06 - Reduce](Day%2006%20-%20Reduce/)
