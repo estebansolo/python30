@@ -1,6 +1,6 @@
 # Python30
 
-Python30 is a Javascript30 inspiration created to help those who are starting with Python or who want to improve their language skills.
+Python30 is an inspiration of JavaScript30 and 100DaysOfCode created to help those who are starting with python or who want to improve their skills in this language.
 
 It is a small course with some challenges which I invite you to take.
 
