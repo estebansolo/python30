@@ -50,9 +50,9 @@ add(6, 2)
 
 ## Types of decorators
 
-- [Functions w/o arguments](#Functions%20w/o%20arguments).
-- [Functions with arguments](#Functions%20with%20arguments).
-- [Decorators with arguments](#Decorators%20with%20arguments).
+- [Functions w/o arguments](#functions-wo-arguments).
+- [Functions with arguments](#functions-with-arguments).
+- [Decorators with arguments](#decorators-with-arguments).
 
 ### Functions w/o arguments
 
