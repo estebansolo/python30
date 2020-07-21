@@ -1,6 +1,6 @@
 # Day 15 - Else
 
-As you can see from [manejar errores](../Day%2010%20-%20Error%20Handling), we can use the 'else' clause not only with conditionals, in this case we'll see that we can use this clause with other statements.
+As you can see from [Error Handling](../Day%2010%20-%20Error%20Handling), we can use the 'else' clause not only with conditionals, in this case we'll see that we can use this clause with other statements.
 
 ## For/Else
 
