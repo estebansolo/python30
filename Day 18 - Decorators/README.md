@@ -50,29 +50,8 @@ add(6, 2)
 
 ## Types of decorators
 
-- [Functions w/o arguments](#functions-wo-arguments).
 - [Functions with arguments](#functions-with-arguments).
 - [Decorators with arguments](#decorators-with-arguments).
-
-### Functions w/o arguments
-
-Let's remember that a decorator is a function which receives another function as an argument, with decorators when we use the expression @operation before the definition of the function, what we do is pass the function that we are defining as an argument of the decorator.
-
-```python
-def operation(function):
-    print("Result")
-    return function
-
-@operation
-def add():
-    print("Decorated function")
-
-add()
-
-# Output
-# Result
-# Decorated function
-```
 
 ### Functions with arguments
 

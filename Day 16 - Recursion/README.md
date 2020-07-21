@@ -19,7 +19,7 @@ We can convert this loop to a recursive function in the following way:
 
 ```python
 def recursive_function(num):
-    if num == 0:
+    if num == 1:
         return num
     return num + recursive_function(num - 1)
 
@@ -34,39 +34,28 @@ print(f"The sum of the numbers from 1 to {times} is equals to {total}")
 
 the above function is a basic example of what we can do, it starts by receiving the number 5 as an argument.
 
-The first condition is used to end the recursion once the value of the argument is 0 and it will go in a chain by returning the total and adding it to the previous number. In other words:
+The first condition is used to end the recursion once the value of the argument is 1 and it will go in a chain by returning the total and adding it to the previous number. In other words:
 
 ```python
 # First execution
 >>> total = recursive_function(5)
 >>> return 5 + recursive_function(4)
-
     # Second execution
     >>> return 4 + recursive_function(3)
-
         # Third execution
         >>> return 3 + recursive_function(2)
-
             # Fourth execution
             >>> return 2 + recursive_function(1)
-
                 # Fifth execution
-                >>> return 1 + recursive_function(0)
-
-                    # Sixth execution
-                    >>> return 0
-
-                >>> return 1 + 0
-
+                >>> return 1
             >>> return 2 + 1 # 1 of the fifth execution
-
         >>> return 3 + 3 # 3 of the fourth execution
-
     >>> return 4 + 6 # 6 of the third execution
-
 >>> return 5 + 10 # 10 of the second execution
 
 # The sum of the numbers from 1 to 5 is equals to 15
 ```
+
+When we call the function for the first time, a value is passed to it and it calls itself but passing a lower value and so on until the end (when the value is 1 and therefore it stops making more calls). At that point they start to return. The returned values are added to the original parameter in each one of the iterations until arriving at the beginning of everything in which the first call returns the final value.
 
 [Go to the Challenge](exercise.py)
