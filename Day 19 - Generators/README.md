@@ -78,7 +78,7 @@ print(next(my_gen))
 
 In this case we must validate whether or not we have received a value, since in each iteration he receives a null value or `None`.
 
-# throw
+## throw
 
 Also they have a `throw` method which is useful when we need to pass an exception to the generator, we must take into account that the generator will not stop if we can correctly validate it, and like the method [send](#send), it will return the next value in iteration.
 
