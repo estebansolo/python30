@@ -173,7 +173,7 @@ latex_elements = {
     'pointsize': '12pt',
     'classoptions': ',oneside',
     'babel': r'\usepackage[english]{babel}',
-    'preamble': r'\usepackage{flaskstyle}'
+    #'preamble': r'\usepackage{flaskstyle}'
 }
 
 latex_use_parts = True
