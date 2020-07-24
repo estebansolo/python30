@@ -9,18 +9,21 @@ It is a small course with some challenges which I invite you to take.
 The Rules of #Python30 Challenge
 ================================
 
-Create a github repository
-Add your solution for every challenge and tweet a link using the #Python30 hashtag
-Help others, give feedback and share your knowledge
-Keep learning
+- Create a github repository
+- Add your solution for every challenge and tweet a link using the #Python30 hashtag
+- Help others, give feedback and share your knowledge
+- Keep learning
 
-==================
-Topics
-==================
+==========
+Challenges
+==========
+
+Find the challenges and solutions to these in the `Python30 <https://github.com/estebansolo/Python30>`_ repository.
 
 .. toctree::
-    :caption: Table of Contents
-    :titlesonly:
+    :maxdepth: 2
+    :hidden:
+    :caption: Getting Started
 
     docs/Day 01 - args and kwargs/README.md
     docs/Day 02 - Range/README.md
@@ -32,16 +35,35 @@ Topics
     docs/Day 08 - Comprehensions/README.md
     docs/Day 09 - Enumerate/README.md
     docs/Day 10 - Error Handling/README.md
+
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: Object-Oriented Programming
+
     docs/Day 11 - Classmethod and Staticmethod/README.md
     docs/Day 12 - Property/README.md
     docs/Day 13 - Dunder Methods/README.md
     docs/Day 14 - Operator Overloading/README.md
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: Advanced Concepts
+
     docs/Day 15 - Else/README.md
     docs/Day 16 - Recursion/README.md
     docs/Day 17 - Memoization/README.md
     docs/Day 18 - Decorators/README.md
     docs/Day 19 - Generators/README.md
     docs/Day 20 - Context Managers/README.md
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    :caption: Built-in Modules
+
     docs/Day 21 - Datetime/README.md
     docs/Day 22 - RegEx/README.md
     docs/Day 23 - Loggers/README.md
