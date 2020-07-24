@@ -22,32 +22,32 @@ Topics
     :maxdepth: 2
 
     docs/Day 01 - args and kwargs/README.md
-    Day 02 - Range/README.md
-    Day 03 - List Slices/README.md
-    Day 04 - Map/README.md
-    Day 05 - Filter/README.md
-    Day 06 - Reduce/README.md
-    Day 07 - Lambdas/README.md
-    Day 08 - Comprehensions/README.md
-    Day 09 - Enumerate/README.md
-    Day 10 - Error Handling/README.md
-    Day 11 - Classmethod and Staticmethod/README.md
-    Day 12 - Property/README.md
-    Day 13 - Dunder Methods/README.md
-    Day 14 - Operator Overloading/README.md
-    Day 15 - Else/README.md
-    Day 16 - Recursion/README.md
-    Day 17 - Memoization/README.md
-    Day 18 - Decorators/README.md
-    Day 19 - Generators/README.md
-    Day 20 - Context Managers/README.md
-    Day 21 - Datetime/README.md
-    Day 22 - RegEx/README.md
-    Day 23 - Loggers/README.md
-    Day 24 - Collections/README.md
-    Day 25 - Itertools/README.md
-    Day 26 - Csv/README.md
-    Day 27 - Json/README.md
-    Day 28 - LRU Cache/README.md
-    Day 29 - Multiprocessing/README.md
-    Day 30 - Doctest/README.md
+    docs/Day 02 - Range/README.md
+    docs/Day 03 - List Slices/README.md
+    docs/Day 04 - Map/README.md
+    docs/Day 05 - Filter/README.md
+    docs/Day 06 - Reduce/README.md
+    docs/Day 07 - Lambdas/README.md
+    docs/Day 08 - Comprehensions/README.md
+    docs/Day 09 - Enumerate/README.md
+    docs/Day 10 - Error Handling/README.md
+    docs/Day 11 - Classmethod and Staticmethod/README.md
+    docs/Day 12 - Property/README.md
+    docs/Day 13 - Dunder Methods/README.md
+    docs/Day 14 - Operator Overloading/README.md
+    docs/Day 15 - Else/README.md
+    docs/Day 16 - Recursion/README.md
+    docs/Day 17 - Memoization/README.md
+    docs/Day 18 - Decorators/README.md
+    docs/Day 19 - Generators/README.md
+    docs/Day 20 - Context Managers/README.md
+    docs/Day 21 - Datetime/README.md
+    docs/Day 22 - RegEx/README.md
+    docs/Day 23 - Loggers/README.md
+    docs/Day 24 - Collections/README.md
+    docs/Day 25 - Itertools/README.md
+    docs/Day 26 - Csv/README.md
+    docs/Day 27 - Json/README.md
+    docs/Day 28 - LRU Cache/README.md
+    docs/Day 29 - Multiprocessing/README.md
+    docs/Day 30 - Doctest/README.md
