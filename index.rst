@@ -19,7 +19,8 @@ Topics
 ==================
 
 .. toctree::
-    :maxdepth: 2
+    :caption: Table of Contents
+    :titlesonly:
 
     docs/Day 01 - args and kwargs/README.md
     docs/Day 02 - Range/README.md
