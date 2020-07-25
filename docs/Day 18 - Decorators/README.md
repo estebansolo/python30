@@ -108,4 +108,4 @@ The way we assign a decorator to a function changes, and we can send arguments t
 
 In python it is very important to know about decorators, the majority of libraries use them and as you saw before `@classmethod` and `@staticmethod` are decorators that python provides us to change the behavior of the methods of their classes.
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2018%20-%20Decorators/exercise.py)

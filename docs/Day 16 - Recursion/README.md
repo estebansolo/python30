@@ -58,4 +58,4 @@ The first condition is used to end the recursion once the value of the argument 
 
 When we call the function for the first time, a value is passed to it and it calls itself but passing a lower value and so on until the end (when the value is 1 and therefore it stops making more calls). At that point they start to return. The returned values are added to the original parameter in each one of the iterations until arriving at the beginning of everything in which the first call returns the final value.
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2016%20-%20Recursion/exercise.py)

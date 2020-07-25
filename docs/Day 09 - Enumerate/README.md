@@ -42,4 +42,4 @@ for counter, element in enumerate(languages):
 # 3 Java
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2009%20-%20Enumerate/exercise.py)

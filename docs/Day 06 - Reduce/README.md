@@ -69,4 +69,4 @@ print(reduce(join_string, words))
 # My name is Esteban
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2006%20-%20Reduce/exercise.py)

@@ -106,4 +106,4 @@ user.age = "26"
 # ValueError: Invalid age
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2012%20-%20Property/exercise.py)

@@ -55,4 +55,4 @@ print(list(filter(validate_age, users)))
 # ]
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2005%20-%20Filter/exercise.py)

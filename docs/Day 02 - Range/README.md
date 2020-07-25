@@ -87,4 +87,4 @@ print(list(5, -5, -1))
 
 The answer, You can't... if you need to create a sequence of numbers with floating values, you could take a look to [numpy.arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html)
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2002%20-%20Range/exercise.py)

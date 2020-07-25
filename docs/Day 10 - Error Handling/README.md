@@ -110,4 +110,4 @@ finally:
 # This text will be printed whether or not an exception is generated
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2010%20-%20Error%20Handling/exercise.py)

@@ -111,4 +111,4 @@ instance_from_csv = FileManager.from_csv("path/to/the/file")
 
 Static method we use them for features that do not require the instance or the class, the class method allows us to create a new instance of a different format than the one the class receives when it is instantiated which is json.
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2011%20-%20Classmethod%20and%20Staticmethod/exercise.py)

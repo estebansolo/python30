@@ -69,4 +69,4 @@ The `len()` function allows us to know the number of characters in a string, how
 
 There are quite a few methods that we can probably use more than we need, but we can practice with each one of them and enrich our code like never before. [Dunder Methods](https://docs.python.org/3/reference/datamodel.html)
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2013%20-%20Dunder%20Methods/exercise.py)

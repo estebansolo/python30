@@ -1,6 +1,6 @@
 # Day 15 - Else
 
-As you can see from [Error Handling](../Day%2010%20-%20Error%20Handling), we can use the 'else' clause not only with conditionals, in this case we'll see that we can use this clause with other statements.
+As you can see from ***Error Handling***, we can use the 'else' clause not only with conditionals, in this case we'll see that we can use this clause with other statements.
 
 ## For/Else
 
@@ -53,4 +53,4 @@ else:
     # Do some stuff if no break executed
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2015%20-%20Else/exercise.py)

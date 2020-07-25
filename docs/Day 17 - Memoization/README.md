@@ -59,4 +59,4 @@ timeit("fibonacci(35)", setup="from __main__ import fibonacci", number=1)
 
 The execution time and resources are quite low thanks to a history, as you can see, when we know the fibonacci of a number `x` this is stored and before calculating it the only thing we have to do is check if we have calculated it before so we don't have to do it again.
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2017%20-%20Memoization/exercise.py)

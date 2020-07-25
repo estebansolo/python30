@@ -39,4 +39,4 @@ numbers = range(1, 101)
 print(list(filter(lambda number: number % 2 == 0, numbers)))
 ```
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2007%20-%20Lambdas/exercise.py)

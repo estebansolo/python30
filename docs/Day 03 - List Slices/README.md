@@ -101,4 +101,4 @@ print(hello[::-1])
 
 **You can use this slices not only with lists**
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2003%20-%20List%20Slices/exercise.py)

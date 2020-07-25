@@ -89,4 +89,4 @@ print(new_dict)
 
 In this example we can also use conditionals, the same way we can work with other types of data such as sets or generators.
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2008%20-%20Comprehensions/exercise.py)

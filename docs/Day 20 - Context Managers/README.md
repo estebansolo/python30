@@ -30,7 +30,7 @@ It starts by opening a file for processing, reads its contents and just before l
 
 ### Context Managers with classes
 
-In order to create context managers using classes, we will be using the [Dunder Methods](../Day%2013%20-%20Dunder%20Methods), to be more precise the `__enter__` and `__exit__`.
+In order to create context managers using classes, we will be using the ***Dunder Methods***, to be more precise the `__enter__` and `__exit__`.
 
 ```python
 class ContextManager:
@@ -71,7 +71,7 @@ with OpenFile("path/to/the/file") as file:
 
 ### Context Managers with functions
 
-We can also implement our context manager using functions, however to create them we must make use of [Decorators](../Day%2018%20-%20Decorators/) and [Generators](../Day%2019%20-%20Generators/).
+We can also implement our context manager using functions, however to create them we must make use of ***Decorators*** and ***Generators***.
 
 ```python
 from contextlib import contextmanager
@@ -92,4 +92,4 @@ We use the decorator `@contextmanager` and the keyword `yield` to convert a simp
 
 The use of this context manager is the same as the one we did with classes, the only thing that would change is the name of the class/function we are using.
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2020%20-%20Context%20Managers/exercise.py)

@@ -95,4 +95,4 @@ print(list(map(user, names, ages, countries)))
 
 The way the map function works depends on whether we need to perform the same action for each of the elements in a sequence
 
-[Go to the Challenge](exercise.py)
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/docs/Day%2004%20-%20Map/exercise.py)
