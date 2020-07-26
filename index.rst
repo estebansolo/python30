@@ -25,16 +25,16 @@ Some basic features of Python let us work functionally, these characteristics ar
     :hidden:
     :caption: Getting Started
 
-    docs/Day 01 - args and kwargs/README.md
-    docs/Day 02 - Range/README.md
-    docs/Day 03 - List Slices/README.md
-    docs/Day 04 - Map/README.md
-    docs/Day 05 - Filter/README.md
-    docs/Day 06 - Reduce/README.md
-    docs/Day 07 - Lambdas/README.md
-    docs/Day 08 - Comprehensions/README.md
-    docs/Day 09 - Enumerate/README.md
-    docs/Day 10 - Error Handling/README.md
+    docs/01_args_and_kwargs.md
+    docs/02_range.md
+    docs/03_list_slices.md
+    docs/04_map.md
+    docs/05_filter.md
+    docs/06_reduce.md
+    docs/07_lambdas.md
+    docs/08_comprehensions.md
+    docs/09_enumerate.md
+    docs/10_error_handling.md
 
 Object-Oriented Programming
 ---------------------------
@@ -46,10 +46,10 @@ Object-oriented programming is an important part of any programming language and
     :hidden:
     :caption: Object-Oriented Programming
 
-    docs/Day 11 - Classmethod and Staticmethod/README.md
-    docs/Day 12 - Property/README.md
-    docs/Day 13 - Dunder Methods/README.md
-    docs/Day 14 - Operator Overloading/README.md
+    docs/11_classmethod_static_method.md
+    docs/12_property.md
+    docs/13_dunder_methods.md
+    docs/14_operator_overloading.md
 
 Advanced Concepts
 -----------------
@@ -61,12 +61,12 @@ Different features are not always explained, when I started with Python I used s
     :hidden:
     :caption: Advanced Concepts
 
-    docs/Day 15 - Else/README.md
-    docs/Day 16 - Recursion/README.md
-    docs/Day 17 - Memoization/README.md
-    docs/Day 18 - Decorators/README.md
-    docs/Day 19 - Generators/README.md
-    docs/Day 20 - Context Managers/README.md
+    docs/15_else.md
+    docs/16_recursion.md
+    docs/17_memoization.md
+    docs/18_decorators.md
+    docs/19_generators.md
+    docs/20_context_managers.md
 
 Built-in Modules
 ----------------
@@ -78,13 +78,13 @@ Some of our needs may have already been solved by someone else. The topics seen 
     :hidden:
     :caption: Built-in Modules
 
-    docs/Day 21 - Datetime/README.md
-    docs/Day 22 - RegEx/README.md
-    docs/Day 23 - Loggers/README.md
-    docs/Day 24 - Collections/README.md
-    docs/Day 25 - Itertools/README.md
-    docs/Day 26 - Csv/README.md
-    docs/Day 27 - Json/README.md
-    docs/Day 28 - LRU Cache/README.md
-    docs/Day 29 - Multiprocessing/README.md
-    docs/Day 30 - Doctest/README.md
+    docs/21_datetime.md
+    docs/22_regex.md
+    docs/23_loggers.md
+    docs/24_collections.md
+    docs/25_itertools.md
+    docs/26_csv.md
+    docs/27_json.md
+    docs/28_lru_cache.md
+    docs/29_multiprocessing.md
+    docs/30_doctest.md
