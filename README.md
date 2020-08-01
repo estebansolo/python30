@@ -1,4 +1,9 @@
-# Python30
+<h1 align="center">Python30</h1>
+<p align="center">
+  <a href='https://python30.readthedocs.io/en/latest/?badge=latest'>
+      <img src='https://readthedocs.org/projects/python30/badge/?version=latest' alt='Documentation Status' />
+  </a>
+</p>
 
 Python30 is an inspiration of JavaScript30 and 100DaysOfCode created to help those who are starting with python or who want to improve their skills in this language.
 
