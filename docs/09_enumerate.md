@@ -2,6 +2,8 @@
 
 Enumerate is a built-in Python function to which we can provide an iterator and return each of its elements in a tuple with a counter.
 
+The syntax is as follows:
+
 ```python
 enumerate(sequence, start=0)
 ```
@@ -29,11 +31,11 @@ for counter, element in enumerate(languages):
 # 2 Java
 ```
 
-The optional start argument can be manipulated with the argument called **start**.
+The optional start argument can be manipulated with the argument called `start`.
 
 ```python
 languages = ["Go", "Python", "Java"]
-for counter, element in enumerate(languages):
+for counter, element in enumerate(languages, start=1):
     print(counter, element)
 
 # Output:
@@ -43,4 +45,5 @@ for counter, element in enumerate(languages):
 ```
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/09_enumerate.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/09_enumerate.py)

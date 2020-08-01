@@ -1,15 +1,15 @@
 # Day 05 - Filter
 
-Another higher order function is **filter**, the function filter allows as its name indicates to filter a sequence and return only the values that fulfill a condition.
+Another higher order function is `filter`, the function filter allows as its name indicates to filter a sequence and return only the values that fulfill a condition.
 
-Like the Map function, it receives 2 arguments which are
+Like the Map function, it receives 2 arguments which are:
 
-- A function
-- A sequence that is going to be filtered
+- A function.
+- A sequence that is going to be filtered.
 
 ## How does it work?
 
-Each of the elements in the sequence will be delivered to the function, if the function returns **True** the value that is delivered will be kept, otherwise it will be discarded
+Each of the elements in the sequence will be delivered to the function, if the function returns **True** the value that is delivered will be kept, otherwise it will be discarded.
 
 ```python
 def keep_hello(element):
@@ -56,4 +56,5 @@ print(list(filter(validate_age, users)))
 ```
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/05_filter.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/05_filter.py)

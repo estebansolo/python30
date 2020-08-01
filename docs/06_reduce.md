@@ -8,15 +8,17 @@ This is the last higher order function we'll see and like the previous ones it g
 - It doesn't return a list, it returns a single value.
 - Must be imported.
 
+    `from functools import reduce`
+
 ## How does it work?
 
-Suppose we have the following list
+Suppose we have the following list:
 
 ```python
 [2, 6, 9, 1]
 ```
 
-The function **reduces** takes 2 values and performs an action, the result of this continues as the first parameter in the next execution and the same action is performed.
+The **reduce** function takes 2 values and performs an action, the result of this continues as the first parameter in the next execution and the same action is performed.
 
 For this case we will add the values:
 
@@ -53,7 +55,13 @@ Finally
 - `num_b`: 1
 - Final returned value: 19
 
-It is not the best way to do it however to perform a new test. Let's join the following list and return a string.
+It's not the best way to do it, but it's a simple way to understand it.
+
+Let's join the following list and return a string:
+
+```python
+["My", "name", "is", "Esteban"]
+```
 
 ```python
 from functools import reduce
@@ -70,4 +78,5 @@ print(reduce(join_string, words))
 ```
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/06_reduce.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/06_reduce.py)

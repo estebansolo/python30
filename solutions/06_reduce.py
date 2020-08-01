@@ -26,7 +26,10 @@ words = ["Hello", "World", "In", "Python"]
 print(reduce(count_chars, words))
 
 """
-Take a list of numbers and return the largest.
+This challenge can be a bit complicated, however
+remember that in the functions you can perform
+conditionals, take a list of numbers and return
+the largest number.
 """
 
 def find_largest(num_a, num_b):

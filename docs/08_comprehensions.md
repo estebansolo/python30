@@ -18,10 +18,10 @@ new_list = [output for i in sequence if condition]
 
 Almost all the comprehensions work in a similar way depending on the type of structure we need to obtain.
 
-- `new_list`: The variable which will contain the list
-- `output`: The output of every element in the list
-- `i`: Value in the sequence
-- `condition`: (optional) Comprehensions can have conditions to decide which value it will keep
+- `new_list`: The variable which will contain the list.
+- `output`: The output of every element in the list.
+- `i`: Value in the sequence.
+- `condition`: (optional) Comprehensions can have conditions to decide which value it will keep.
 
 ### Common Example
 
@@ -33,7 +33,7 @@ for number in range(1, 6):
 print(totals)
 ```
 
-We can perform this same action with the **map** function as we saw before, however this time we will use comprehension
+We can perform this same action with the **map** function as we saw before, however this time we will use comprehension:
 
 ```python
 totals = [number * 2 for number in range(1, 6)]
@@ -76,7 +76,7 @@ print(new_dict)
 # {5: 25, 8: 64, 2: 4, 6: 36, 3: 9}
 ```
 
-Comprehension
+#### Comprehension
 
 ```python
 numbers = [5, 8, 2, 6, 3]
@@ -90,4 +90,5 @@ print(new_dict)
 In this example we can also use conditionals, the same way we can work with other types of data such as sets or generators.
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/08_comprehensions.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/08_comprehensions.py)

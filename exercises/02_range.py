@@ -12,6 +12,7 @@ Generate the previous sequence but in this case in
 the opposite way.
 """
 
+
 """
 This challenge can be a bit difficult, try to create a
 function that returns a sequence of decimal numbers between

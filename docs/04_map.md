@@ -1,17 +1,17 @@
 # Day 04 - Map
 
-Python comes with some higher order functions which can be very useful when working in a functional way.
+Python comes with some [higher order functions](https://en.wikipedia.org/wiki/Higher-order_function) which can be very useful when working in a functional way.
 
-In this first case we'll look at the **Map function**. The map function receives 2 arguments in the following order:
+In this first case we'll look at the `map` function. The map function receives two arguments in the following order:
 
 - A function
 - At least a sequence (list, tuple, iterator, etc)
 
 ## How does it work?
 
-Each of the elements of the sequence will be delivered to the function, this process is done 1 to 1 and what it will do depends on what we define in the function.
+Each of the elements of the sequence will be delivered to the function, this process is done 1 by 1 and what it will do depends on what we define in the function.
 
-At the end we will obtain an iterator which will contain each of the results of the calls to the function.
+At the end we will obtain a new sequence which will contain each of the results of the calls to the function.
 
 ```python
 def multiply(element):
@@ -21,7 +21,7 @@ numbers = [2, 4, 6, 8]
 print(map(multiply, numbers))
 ```
 
-In this example each number in the list will be given to the function and this number will be multiplied by 2, we return its result which at the end we will have a similar iterator as follows
+In this example each number in the list will be given to the function and this number will be multiplied by 2, we return its result which at the end we will have a similar iterator as follows:
 
 ```
 <map object at 0x7f98f2b52150>
@@ -93,7 +93,8 @@ print(list(map(user, names, ages, countries)))
 # ]
 ```
 
-The way the map function works depends on whether we need to perform the same action for each of the elements in a sequence
+The way the map function works depends on whether we need to perform the same action for each of the elements in a sequence.
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/04_map.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/04_map.py)

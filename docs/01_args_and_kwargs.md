@@ -1,10 +1,11 @@
 # Day 01 - *args and **kwargs
 
-When we define functions, we can make use of two kinds of arguments, ***positional arguments*** and ***named arguments or keyword arguments***.
+When defining functions, we can use of two kinds of arguments, ***positional arguments*** and ***named arguments or keyword arguments***.
 
-Keyword arguments are normally used to declare arguments with a default value, which are then used in case we don't pass it in when we make the call.
+`Keyword arguments` are normally used to declare arguments with a default value, which are then used in case we don't pass it in when we make the call.
 
-## Arguments
+## Positional Arguments
+
 ```python
 def multiply(a, b):
     print(a * b)
@@ -53,7 +54,7 @@ fun(1, 2, 3)
 # Output: (1, 2, 3)
 ```
 
-When we use *args we are treating all positional arguments as a **tuple**.
+When using *args, all positional arguments are treated as a **tuple**.
 
 ## Use of **kwargs
 
@@ -75,7 +76,7 @@ fun(a=1, b=2, c=3)
 # Output: {"a": 1,"b": 2,"c": 3}
 ```
 
-When we use double asterisk (**) we are treating all keyword arguments as a **dict**.
+When we use double asterisk (**), the keyword arguments are treated as a **dict**.
 
 This functionality allows us to pass an indefinite list of arguments, either positional or named, and treat them as 1 or 2 variables in the function, this is because just as we can combine both types of arguments when defining a function, we can make use of both variables in the same function.
 
@@ -132,7 +133,7 @@ In this case we could use the double asterisk although the function has no argum
 
 ## Python Example
 
-If we see the Python documentation, the [print](https://docs.python.org/3/library/functions.html#print) function makes use of *args, in its case and as I indicated at the beginning, it is not necessary that it is called this way.
+If you see the Python documentation, the [print](https://docs.python.org/3/library/functions.html#print) function makes use of *args, in its case and as I indicated at the beginning, it is not necessary that it is called this way.
 
 `print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)`
 
@@ -150,4 +151,5 @@ print(*values)
 ```
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/01_args_and_kwargs.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/01_args_and_kwargs.py)

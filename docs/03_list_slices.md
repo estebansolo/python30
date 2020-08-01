@@ -9,7 +9,7 @@ Before explaining how list slices work we must emphasize a couple of things.
 my_list[start:stop:step]
 ```
 
-- `start`: (required) The initial value in the slice
+- `start`: (required) The initial value in the slice.
 - `stop`: (required) End of the slice, without including its value.
 - `step`: (optional) The size of steps in the sequence the default value is 1
 
@@ -29,14 +29,14 @@ If you haven't tried, what do you think is the output?
 
 Going back to what I said before "start and stop are required", actually they are not, but as we are talking about slices, taking a part of the list, we must define the colon (:), this way we indicate that we are going to take from the first index (since before the colon no value was defined) to the last index (since no value was defined after the colon), this way we are generating a new list with this range that would be exactly the same.
 
-Now how about we try to generate a list from the second index onwards? We don't need to define where it ends but where it begins
+Now how about we try to generate a list from the second index onwards? We don't need to define where it ends but where it begins.
 
 ```python
 my_list = ["H", "E", "L", "L", "O"]
 print(my_list[2:])
 ```
 
-Let's remember what the indices would be like
+Let's remember what the indices would be like:
 
 ```
 ["H", "E", "L", "L", "O"]
@@ -45,7 +45,7 @@ Let's remember what the indices would be like
 
 As we are generating a slice from position 2 onwards we will get a list like the following
 
-```python
+```
 ["L", "L", "O"]
 ```
 
@@ -58,15 +58,15 @@ my_list = ["H", "E", "L", "L", "O"]
 print(my_list[:-1])
 ```
 
-It will take from the beginning to the second last element in the list
+It will take from the beginning to the second last element in the list:
 
-```python
+```
 ["H", "E", "L", "L"]
 ```
 
 ## Step
 
-The step works in the same way as in the function range, its default value is 1 up but we can modify it if we want to go faster or in reverse
+The step works in the same way as in the function range, its default value is 1, but we can modify it if we want to go faster or in reverse.
 
 How do we create a new list but increase it from 2 items?
 
@@ -102,4 +102,5 @@ print(hello[::-1])
 **You can use this slices not only with lists**
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/03_list_slices.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/03_list_slices.py)

@@ -26,14 +26,14 @@ So, In this case the sequence will start at 0 and end at 5 (not including it).
 print(range(5))
 ```
 
-We'll see that when printing it returns something similar to **range(0, 5)**, but what we want is to see the complete sequence, so to see the values that compose it, for this we must cast this range as a list
+We'll see that when printing it returns something similar to **range(0, 5)**, but what we want is to see the complete sequence, so to see the values that compose it, for this we must cast this range as a list.
 
 ```python
 sequence = list(range(5))
 print(sequence)
 ```
 
-The output is now more understandable
+The output is now more understandable:
 
 ```
 [0, 1, 2, 3, 4]
@@ -41,7 +41,7 @@ The output is now more understandable
 
 ### Two parameters
 
-When we call **range** passing two arguments, with the first value we define where the sequence starts and with the second one where it ends.
+When we call **range** passing two parameters, with the first value we define where the sequence starts and with the second one where it ends.
 
 **Remember that the value where it ends is not included in the sequence**
 
@@ -54,7 +54,7 @@ print(list(range(2, 9)))
 
 ### Three parameters
 
-When we use the function with all its arguments, we will define where it starts, where it ends and how many steps the sequence will be.
+Finally, when calling the function with all its arguments, we will define where it starts, where it ends, and how many steps the sequence will be.
 
 ```python
 print(list(range(-5, 5, 2)))
@@ -63,14 +63,9 @@ print(list(range(-5, 5, 2)))
 # [-5, -3, -1, 1, 3]
 ```
 
-We can see that the sequence starts at -5 and ends at 5, but why doesn't he print the 4?
+You can see that the sequence starts at -5 and ends at 5, but where's number 4?
 
-This is due to the steps we are indicating, which are 2, this way it will omit 1 value before returning the next
-
-```
-# Include [-5, -3, -1, 1, 3]
-# Exclude [-4, -2, 0, 2, 4]
-```
+This is due to the steps we are indicating, which are 2, this way it will omit 1 value before returning the next number.
 
 ## Notes
 
@@ -79,13 +74,14 @@ This is due to the steps we are indicating, which are 2, this way it will omit 1
 
 **Try this**
 
-```
-print(list(5, -5, -1))
+```python
+print(list(range(5, -5, -1)))
 ```
 
 ## How can I use float numbers with range?
 
-The answer, You can't... if you need to create a sequence of numbers with floating values, you could take a look to [numpy.arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html)
+The answer, you can't... if you need to create a sequence of numbers with floating values, you could take a look to [numpy.arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html)
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/02_range.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/02_range.py)

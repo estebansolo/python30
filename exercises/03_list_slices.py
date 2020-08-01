@@ -1,6 +1,6 @@
 """
 You can use the range function to easily create a list with
-100 numbers, use list slices to take onlythose numbers that
+100 numbers, use list slices to take only those numbers that
 are multiples of 3.
 """
 
@@ -16,7 +16,7 @@ Generate the following
 hello = ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 
 """
-Remember it doesn't just work with lists, write your name and
+Remember it doesn't only work with lists, write your name and
 put it in reverse
 """
 

@@ -21,7 +21,7 @@ multiples = [number for number in numbers if number % 2 == 0]
 print(multiples)
 
 """
-[[1, 2, 3, 4], [4, 5, 6, 8]]
+[[1, 2, 3, 4], [5, 6, 7, 8]]
 
 Use the list above and create nested comprehensions so that
 the final value is a new list like the following
