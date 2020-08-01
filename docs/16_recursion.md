@@ -1,8 +1,8 @@
 # Day 16 - Recursion
 
-Recursive functions are created when a function calls itself, this process will repeat indefinitely if we don't stop it in some condition, and only when it concludes, it will return a value to the place where it started its process.
+Recursive functions are created when a function calls itself, this process will repeat indefinitely if we don't stop it at some point, and only when it concludes, it will return a value to the place where it started the process.
 
-We can turn any loop into a recursion.
+**We can turn any loop into a recursion.**
 
 ```python
 total = 0
@@ -32,7 +32,7 @@ print(f"The sum of the numbers from 1 to {times} is equals to {total}")
 # The sum of the numbers from 1 to 5 is equals to 15
 ```
 
-the above function is a basic example of what we can do, it starts by receiving the number 5 as an argument.
+The above function is a basic example of what we can do, it starts by receiving the number 5 as an argument.
 
 The first condition is used to end the recursion once the value of the argument is 1 and it will go in a chain by returning the total and adding it to the previous number. In other words:
 
@@ -59,4 +59,5 @@ The first condition is used to end the recursion once the value of the argument 
 When we call the function for the first time, a value is passed to it and it calls itself but passing a lower value and so on until the end (when the value is 1 and therefore it stops making more calls). At that point they start to return. The returned values are added to the original parameter in each one of the iterations until arriving at the beginning of everything in which the first call returns the final value.
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/16_recursion.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/16_recursion.py)

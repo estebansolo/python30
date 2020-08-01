@@ -10,7 +10,7 @@ The most common definition is the following:
 
 > Decorators are functions that take another function and extends the behavior of the latter function without explicitly modifying it.
 
-Decorators are high order functions, they allow us to add functionality to an existing code without affecting its behavior, each decorator must be preceded by a `@`.
+Decorators are **high order functions**, they allow us to add functionality to an existing code without affecting its behavior, each decorator must be preceded by a `@`.
 
 ```python
 def decorator(fun, arg_a, arg_b):
@@ -26,7 +26,7 @@ decorator(add, 6, 2)
 # The result of 6 and 2 is 8
 ```
 
-In this example, the decorator takes the function and the arguments as parameters and performs a new operation, different from that of the main function.
+In this example, the "decorator" takes the function and the arguments as parameters and performs a new operation, different from that of the main function.
 
 This same process as a decorator would be:
 
@@ -63,7 +63,7 @@ In order to make this clear, let's look at the following example:
 def operation(function):
     print("Function as an argument")
     def wrapper(*args, **kwargs):
-        print("All function parameters as arguments")
+        print("All function parameters as arguments (positiona & named)")
         return function(*args, **kwargs)
     
     return wrapper
@@ -77,7 +77,7 @@ print(add(2, 4))
 
 # Output
 # Function as an argument
-# All function parameters as arguments
+# All function parameters as arguments (positiona & named)
 # Decorated function
 # 6
 ```
@@ -102,11 +102,11 @@ def add(num_a, num_b):
 
 The way we assign a decorator to a function changes, and we can send arguments to our needs, in the previous case a variable to indicate whether or not we want to print the result before returning to the place where the function was called.
 
-> Decorators can also be created using **classes**.
->
-> Decorators can be nested in the same function.
+- Decorators can also be created using **classes**.
+- You can use multiple Decorators in the same function.
 
 In python it is very important to know about decorators, the majority of libraries use them and as you saw before `@classmethod` and `@staticmethod` are decorators that python provides us to change the behavior of the methods of their classes.
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/18_decorators.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/18_decorators.py)

@@ -1,6 +1,6 @@
 # Day 20 - Context Managers
 
-When working with any type of resources in any programming language, we must release them once we no longer use them, this must be done because leaving resources open and not making use of them can slow down the system or even cause it to fail.
+When working with any type of resource in any programming language, we must release them once we no longer use them, this must be done because leaving resources open and not making use of them can slow down the system or even cause it to fail.
 
 Context managers are a Python feature that allows us to manage these resources in a simple way leaving aside the need to always assign and release resources manually.
 
@@ -12,16 +12,16 @@ content = file.read()
 file.close()
 ```
 
-As you can see when using this resource we must release it, for this case it is simply to close the file. However this process of opening and closing files is not the best and for some reason we could forget to add it.
+This resource must be released after used, in this case it is simply to close the file. However this process of opening and closing files is not the best and for some reason we could forget to add it.
 
-When we use a context manager, we use the keyword `with`, the previous example would look like this:
+When using context managers, we use the keyword `with`, the previous example would look like this:
 
 ```python
 with open('path/to/the/file') as file:
     content = file.read()
 ```
 
-It starts by opening a file for processing, reads its contents and just before leaving this block, closes it.
+It starts by opening a file for processing, read the content, and close it before leaving this block.
 
 ## Implementation
 
@@ -46,7 +46,7 @@ class ContextManager:
 
 - `__init__`: Creates the object.
 - `__enter__`: Return the resource we are going to use.
-- `__exit__`: It releases the resources when we finish using the context manager instance.
+- `__exit__`: Release the resource when we finish using the context manager instance.
 
 This last one, as you could see, receives three arguments that in case an exception occurs, it will pass the **type**, **value** and **traceback** of the exception so we can decide how to proceed at the moment of releasing the resource.
 
@@ -71,7 +71,7 @@ with OpenFile("path/to/the/file") as file:
 
 ### Context Managers with functions
 
-We can also implement our context manager using functions, however to create them we must make use of ***Decorators*** and ***Generators***.
+We can also implement our context managers using functions, however to create them we must use ***Decorators*** and ***Generators***.
 
 ```python
 from contextlib import contextmanager
@@ -93,4 +93,5 @@ We use the decorator `@contextmanager` and the keyword `yield` to convert a simp
 The use of this context manager is the same as the one we did with classes, the only thing that would change is the name of the class/function we are using.
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/20_context_managers.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/20_context_managers.py)

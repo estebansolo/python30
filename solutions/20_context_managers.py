@@ -14,7 +14,7 @@ class DriverContext:
         
         self.driver.maximize_window()
         self.driver.implicitly_wait(15)
-        self.driver.get('url')
+        self.driver.get('<url>')
 
     def __enter__(self):
         return self.driver

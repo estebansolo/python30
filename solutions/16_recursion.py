@@ -19,8 +19,7 @@ def factorial(number):
 print(factorial(10))
 
 """
-Let's simulate the operation of the operator module
-(%).
+Let's simulate the operation of the operator module (%).
 
 4 % 2 => 0
 59 % 6 => 5

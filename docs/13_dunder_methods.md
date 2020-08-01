@@ -2,7 +2,7 @@
 
 "Everything in Python is an object." You've probably heard this before, that's because it is, every data type we use is an object that has been enriched to increase its performance.
 
-Dunder methods, or magic methods, are methods that we can define in our classes to give them more functionality than they have. These methods allow us to simulate the behavior of different data types from those we can find in the language.
+Dunder methods, or magic methods, are methods we can define in our classes to give them more functionality than they have. These methods allow us to simulate the behavior of different data types from those we can find in the language.
 
 The name dunder methods come from double underscores as a prefix and suffix of the method, e.g. `__init__`.
 
@@ -18,11 +18,11 @@ print(new_user)
 # <__main__.User object at 0x7fafdc06cdd0>
 ```
 
-I have created a basic User class which receives the name at the time of instantiation when printing this instance, we can see the address in memory although now it is not something we need to know, how about improving this?
+I've created a basic class `User` which receives the name at the moment of its instantiation. When printing this instance, we can see the address in memory although now this is not what we need, how about improving this?
 
 ## Object Representation
 
-**__repr__** is a method that allows us to define what information is going to represent our class, in this case, to see clear information of the created instance.
+`__repr__` is a method that allows us to define what information is going to represent our class, in this case, to see clear information of the created instance.
 
 ```python
 class User:
@@ -41,7 +41,7 @@ print(new_user)
 
 ## Count
 
-You have probably already used the `len()` function more than once, but did you know that we can also implement it on our objects?
+You have probably used the `len()` function more than once, but did you know we can also implement this in our objects?
 
 ```python
 class User:
@@ -63,11 +63,12 @@ print(len(new_user))
 # 11
 ```
 
-The `len()` function allows us to know the number of characters in a string, however, we can use the magic method __len__ to know from our object the number of characters that our User represents.
+The `len()` function allows us to know the number of characters in a string, however, we can use the magic method `__len__` to know from our object the number of characters that our `User` represents.
 
 ## More
 
-There are quite a few methods that we can probably use more than we need, but we can practice with each one of them and enrich our code like never before. [Dunder Methods](https://docs.python.org/3/reference/datamodel.html)
+There are quite a few methods that we probably won't need, however, we can practice with each of them to enrich our code like never before. [Dunder Methods](https://docs.python.org/3/reference/datamodel.html)
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/13_dunder_methods.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/13_dunder_methods.py)

@@ -33,7 +33,7 @@ timeit("fibonacci(35)", setup="from __main__ import fibonacci", number=1)
 
 This process was performed once and took about 4 seconds, if you can see it is a recursive function which is called itself several times per execution and sometimes performs the same operation for the same arguments.
 
-This process can be optimized because we will always get the same result if we pass the same argument, in other words, it is a pure function.
+This process can be optimized because we will always get the same result if we pass the same argument, in other words, it is a **pure function**.
 
 ```python
 from timeit import timeit
@@ -43,12 +43,15 @@ history = {}
 def fibonacci(n):
     if n in history:
         return history[n]
+
     if n == 0:
         return 0
     elif n == 1:
         return 1
+
     fibonacci_result = fibonacci(n - 1) + fibonacci(n - 2)
     history[n] = fibonacci_result
+    
     return fibonacci_result
 
 timeit("fibonacci(35)", setup="from __main__ import fibonacci", number=1)

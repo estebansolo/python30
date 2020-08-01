@@ -11,9 +11,9 @@ print(36 - 23)
 # 13
 ```
 
-Commonly, we think about comparing or making numerical calculations since it is something basic that we know since we were children, but this type of comparison can be performed with any class using some magic methods.
+Usually, we think about comparing or making numerical calculations since it is something basic that we know since we were children, but this type of comparison can be performed with any class using some magic methods.
 
-For now we will create a Product class with some of its basic attributes.
+For now we will create a `Product` class with some of its basic attributes:
 
 ```python
 class Product:
@@ -87,7 +87,7 @@ print(pizza == hotdog)
 
 These magic methods allow us to compare our items, in my case I had their prices compared, however, you can define these methods as you need them.
 
-As you can notice the objects we are comparing, they receive as an argument another one which relates to the value with which we are going to make the comparison.
+These methods receive as an argument another one, which is related to the value with which we are going to make the comparison.
 
 ## Operations
 
@@ -118,4 +118,5 @@ print(total)
 ```
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/14_operator_overloading.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/14_operator_overloading.py)

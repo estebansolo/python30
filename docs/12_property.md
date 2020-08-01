@@ -5,7 +5,7 @@ In object-oriented programming, the getter and setter methods help us access pri
 Although in Python we can't define methods or attributes as private, we can use a convention that indicates to other developers the level of accessibility of these.
 
 - Protected: For protected attributes or methods, we must set an underscore before the definition. e.g. `self._name = "My name"`
-- Private: Private attributes or methods have 2 underscores. e.g. `def __private_method(self):`
+- Private: Private attributes or methods have two underscores. e.g. `def __private_method(self):`
 
 ## Getter / Setter
 
@@ -32,7 +32,7 @@ print(f"Name: {user.get_name()}")
 # Name: Cristian
 ```
 
-The traditional way or as it is usually done in other programming languages is using normal methods.
+The traditional way or as it is normally used in other programming languages is to use normal methods.
 
 This preamble is intended to give you an understanding of each of these levels and to help you understand how **Property** can help you create getters and setters in a Pythonic way.
 
@@ -40,7 +40,7 @@ This preamble is intended to give you an understanding of each of these levels a
 
 `Property` is a built-in decorator that allows us to define the getter and setter.
 
-Let's see with the same code as above how to use the property decorator.
+Let's see with the same code as above how to use the property decorator:
 
 ```python
 class User:
@@ -71,11 +71,11 @@ print(f"Name: {user.name}")
 # Name: Cristian
 ```
 
-As you can see, the property decorator did not change much in the way we do the getter/setter however this allows it to be more intuitive and easy to read each of its attributes, also like the methods defined above, allow us to control how we access the attributes of the class.
+As you can see, the `property` decorator did not change much in the way we do the getter/setter, however this allows it to be more intuitive and easy to read, also like the methods defined above, allow us to control how we access the attributes of the class.
 
 The property decorator is defined in a method that will return the value of the attribute, to define the setter we must use the property created, `@<property>.setter`.
 
-We don't have to define each of these methods for each property, as we only do this for those we're going to access, or they can be read-only attributes so we'll only need the getters.
+We don't have to define each of these methods for every property in our classes, as we only do this for those we're going to access, or if they can be read-only attributes we'll only need the getters.
 
 Remember that we can implement these methods as we need them so that we won't affect the implementation of the code.
 
@@ -107,4 +107,5 @@ user.age = "26"
 ```
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/12_property.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/12_property.py)

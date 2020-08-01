@@ -11,8 +11,7 @@ Factorial: factorial(5) => 1*2*3*4*5 => 120
 """
 
 """
-Let's simulate the operation of the operator module
-(%).
+Let's simulate the operation of the operator module (%).
 
 4 % 2 => 0
 59 % 6 => 5

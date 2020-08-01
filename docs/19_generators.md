@@ -110,4 +110,5 @@ print(next(my_gen))
 Generators allow us as their name suggests to **generate** data at runtime, that's why they are very useful when we work with a larger volume of data.
 
 [Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/19_generators.py)
+
 [Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/19_generators.py)
