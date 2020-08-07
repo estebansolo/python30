@@ -4,8 +4,11 @@ numbers.
 """
 
 """
-Create a function that takes a list of strings
-and returns the sum of its characters.
+Create a function that takes a list of
+strings and return the sum of its characters.
+
+["I", "am", "esteban"] => 1 2 and 7
+10
 """
 
 """
