@@ -12,10 +12,11 @@ numbers = [5, 9, 7, 84, 15, 36, 2]
 print(reduce(multiply, numbers))
 
 """
-This challenge can be a bit complicated, however
-remember to use conditionals to decide what action
-to take. Create a function that takes a list of
-strings and returns the sum of its characters.
+Create a function that takes a list of
+strings and return the sum of its characters.
+
+["I", "am", "esteban"] => 1 2 and 7
+10
 """
 
 def count_chars(word_a, word_b):
