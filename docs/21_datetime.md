@@ -255,3 +255,7 @@ This module has some limitations, such as
 These and other features that `datetime` may not have you can check out at a library called [dateutil](https://dateutil.readthedocs.io/en/stable/).
 
 > It is important to emphasize that what is mentioned here is not all we can do with the module, but it is an introduction and what I think are some of the main functions that we should know how to use.
+
+[Go to the Challenge](https://github.com/estebansolo/Python30/blob/master/exercises/21_datetime.py)
+
+[Go to the Solution](https://github.com/estebansolo/Python30/blob/master/solutions/21_datetime.py)
